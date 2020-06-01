@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: green;
+  text-align: center;
+  font-size: 5em;
+  text-decoration-style: solid;
+}
+
+button {
+  background-color: #cceabb;
+  border: none;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #fcf876;
+}
+
+.clr {
+  clear: both;
+}
+
+img {
+  display: inline-block;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+img:hover {
+  box-shadow: black;
+  image-orientation: 10px;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: grey;
+  border-width: 5px;
+}
+
+.logo {
+  padding-top: 40px;
+  width: 10%
+}
+
+.top-Container {
+  background-color: #e2d8c3;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+}
+
+.top-Container {
+  margin-left: 5px;
+  margin-right: 5px;
+  bottom: 50px;
+}
+
+.subject {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 85%;
+  padding: 50px;
+  box-sizing: border-box;
+  position: absolute;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+
+.topnavi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebutton {
+  margin-top: 5px;
+  margin-left 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.sidenavi {
+  background-color: #a8df65;
+  margin-left: 5px padding: 10px;
+  display: inline-block;
+  width: 220px;
+}
+
+.box-2 {
+  margin-left: 50px;
+  width: 90%;
+  overflow: auto;
+  margin-top: 20px;
+  padding: 50px;
+  box-sizing: border-box;
+  position: absolute;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+
+.box-2 .item1 .blog {
+  float: right;
+  margin: 20px;
+  width: 60%;
+  position: relative;
+  left: 150px bottom: 300px display:inline-block;
+}
+
+.box-2 .item2 .blog {
+  float: left;
+  margin: 20px;
+  width: 60%;
+  position: relative;
+  left: 150px bottom: 300px display:inline-block;
+}
+
+.box-2 .item3 .blog {
+  float: right;
+  width: 60%;
+  position: relative;
+  left: 150px display:inline-block;
+}
+
+.box-2 .item1 .picture {
+  float: left;
+  height: auto;
+  width: 20%;
+}
+
+.box-2 .item2 .picture {
+  float: right;
+  height: auto;
+  width: 20%;
+}
+
+.box-2 .item3 .picture {
+  float: left;
+  height: auto;
+  width: 20%;
+  display:flow-root;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
